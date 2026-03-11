@@ -1,13 +1,13 @@
-Energy Consumption Prediction 
-A Machine Learning project that predicts electricity consumption using historical hourly energy data.
-**Project Overview:**
-This project builds a regression model to predict future electricity consumption based on historical energy usage patterns. The system uses time-based features such as hour, day of week, and month along with lag features.
-The trained model is deployed using a Flask web application where users can input time parameters and get predicted energy consumption.
-1.Dataset
-Dataset used: Hourly Energy Consumption Dataset
-Source: https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption
-Example dataset used in this project:
-AEP_hourly.csv
+Energy Consumption Prediction  
+A Machine Learning project that predicts electricity consumption using historical hourly energy data.  
+**Project Overview:**  
+This project builds a regression model to predict future electricity consumption based on historical energy usage patterns. The system uses time-based features such as hour, day of week, and month along with lag features.  
+The trained model is deployed using a Flask web application where users can input time parameters and get predicted energy consumption.  
+1.Dataset  
+Dataset used: Hourly Energy Consumption Dataset  
+Source: https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption  
+Example dataset used in this project:  
+AEP_hourly.csv  
 2.Machine Learning Pipeline
   1. Data Loading
   2. Data Cleaning
