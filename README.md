@@ -8,7 +8,7 @@ Dataset used: Hourly Energy Consumption Dataset
 Source: https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption  
 Example dataset used in this project:  
 AEP_hourly.csv  
-2.Machine Learning Pipeline
+2.Machine Learning Pipeline  
   1. Data Loading
   2. Data Cleaning
   3. Feature Engineering
@@ -18,12 +18,12 @@ AEP_hourly.csv
   7. Model Deployment (Flask Web App)
 3.Feature Engineering
 The following features are used:
-- Hour
+- Hour  
 - Day of Week
 - Month
 - Lag1 (previous hour energy)
 - Lag24 (previous day energy)
-4.Models Used
+4.Models Used 
 - Linear Regression
 - Random Forest Regressor
 Used conditional statements to compare the values of model evaluation(RMSE and MSE) to choose the best model
@@ -70,7 +70,6 @@ Model performance is evaluated using:
 ├── requirements.txt
 └── README.md
 |__requirments.txt
-
 Technologies Used
 - Python
 - Pandas
