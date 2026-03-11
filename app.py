@@ -1,4 +1,3 @@
-# Your final version without conflict markers
 import os
 from flask import Flask, render_template, request
 import pickle
