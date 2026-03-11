@@ -1,0 +1,117 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg,#eef2ff,#f8fafc,#e0f2fe);
+height:100vh;
+margin:0;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* main card */
+
+.container{
+background:white;
+padding:45px;
+border-radius:14px;
+width:420px;
+text-align:center;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.08),
+0 4px 10px rgba(0,0,0,0.05);
+
+transition:all .3s ease;
+}
+
+.container:hover{
+transform:translateY(-3px);
+box-shadow:0 15px 40px rgba(0,0,0,0.12);
+}
+
+h1{
+color:#1e293b;
+margin-bottom:25px;
+font-size:26px;
+}
+
+/* labels */
+
+label{
+display:block;
+text-align:left;
+margin-top:12px;
+font-weight:600;
+color:#334155;
+}
+
+/* input boxes */
+
+input{
+width:100%;
+padding:11px;
+margin-top:6px;
+border-radius:8px;
+border:1px solid #dbeafe;
+background:#f8fafc;
+
+transition:all .2s ease;
+}
+
+input:focus{
+outline:none;
+border:1px solid #6366f1;
+box-shadow:0 0 6px rgba(99,102,241,0.25);
+background:white;
+}
+
+/* button */
+
+button{
+
+margin-top:25px;
+
+width:100%;
+padding:13px;
+
+background:linear-gradient(135deg,#6366f1,#3b82f6);
+
+border:none;
+border-radius:9px;
+
+color:white;
+font-size:16px;
+font-weight:600;
+
+cursor:pointer;
+
+transition:all .25s ease;
+
+}
+
+button:hover{
+
+background:linear-gradient(135deg,#4f46e5,#2563eb);
+
+transform:scale(1.03);
+
+}
+
+/* prediction result */
+
+.result{
+
+margin-top:28px;
+
+padding:12px;
+
+border-radius:8px;
+
+background:#f1f5f9;
+
+font-size:18px;
+font-weight:600;
+
+color:#0f172a;
+
+}

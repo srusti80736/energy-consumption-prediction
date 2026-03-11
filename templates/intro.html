@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Energy Consumption Prediction</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='intro.css') }}">
+
+</head>
+
+<body>
+
+<div class="grain"></div>
+
+<div class="hero">
+
+<h1 class="title">
+ENERGY<br>
+CONSUMPTION<br>
+PREDICTION
+</h1>
+
+<a href="{{ url_for('home') }}" class="enter">Enter →</a>
+
+</div>
+
+<script>
+setTimeout(function(){
+    window.location.href = "{{ url_for('home') }}";
+},3800);
+</script>
+
+</body>
+
+</html>
